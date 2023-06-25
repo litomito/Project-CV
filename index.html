@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linus Toma  |  CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blur" id="blur">
+        <div class="right">
+            <div class="aboutme">
+                <button onclick="openPopup5()" class="om-mig" id="om-mig">
+                    <p class="abme">OM MIG</p>
+                </button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="arbet">
+                <button onclick="openPopup7()" class="arbets-btn" id="arbets-btn">
+                    <p class="abme">ARBETSLIVSERFARANHETER</p>
+                </button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="utbild">
+                <button onclick="openPopup8()" id="utbild-btn" class="utbild-btn">
+                    <p class="abme">UTBILDNING</p>
+                </button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="itkun">
+                <button onclick="openPopup9()" class="itkun-btn" id="itkun-btn">
+                    <p class="abme">IT KUNSKAPER</p>
+                </button>
+            </div>
+        </div>
+        <div class="left">
+            <div class="picture">
+                <img src="/Projekt-CV/img/IMG_8722.JPG" alt="Linus Toma" id="imge" onclick="openPopup6()" class="imge">
+            </div>
+            <div class="name">
+                <h2>Linus Toma</h2>
+            </div>
+            <div class="kontakt">
+                <button onclick="openPopup()" class="kon1" id="kon1">
+                    <p>Kontakt</p>
+                </button>
+            </div>
+            <br>
+            <br>
+            <div class="uppgifter">
+                <button onclick="openPopup2()" class="pers" id="pers">
+                    <p>Personuppgifter</p>
+                </button>
+            </div>
+            <br>
+            <br>
+            <div class="språk">
+                <button onclick="openPopup3()" class="spr" id="spr">
+                    <p>Språkkunskaper</p>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup1" id="popup1">
+        <h1>Kontakt</h1>
+        <p>Linus Toma</p>
+        <p>2003-11-15</p>
+        <p>Kamomillvägen 56</p>
+        <p>145 74 Norsborg</p>
+        <button onclick="closePopup()" class="close">
+            x
+        </button>
+    </div>
+    <div class="popup2" id="popup2">
+        <h1>Personuppgifter</h1>
+        <p>E-post: Linustoma11@hotmail.com</p>
+        <p>Telefon: 073-516 94 50</p>
+        <p>Ålder: 19</p>
+        <p>Körkort: B</p>
+        <button onclick="closePopup2()" class="close">
+            x
+        </button>
+    </div>
+    <div class="popup3" id="popup3">
+        <h1>Språkkunskaper</h1>
+        <p>Keldeiska - Modersmål</p>
+        <p>Svenska - Modersmål</p>
+        <p>Engelska - Flytande</p>
+        <button onclick="closePopup3()" class="close">
+            x
+        </button>
+    </div>
+    <div class="popup5" id="popup5">
+        <h1>Om Mig</h1>
+        <p>Jag är ung och kreativ medarbetare med ett stort ansvarstagande. Som
+            person är jag nyfiken och social. Jobbar hårt och visar ambition i allt jag
+            gör. Jag fungerar lika bra i grupp som på egen hand.
+        </p>
+        <p>Förutom mitt stora intresse kring IT och nätverk är det att umgås socialt
+            med vänner och familj. Mitt mål är att kunna kombinera mina tekniska och
+            sociala kunskaper
+        </p>
+        <button onclick="closePopup5()" class="close">
+            x
+        </button>
+    </div>
+    <div>
+        <img src="/Projekt-CV/img/IMG_8722.JPG" alt="Linus Toma" id="popup6" class="popup6" onclick="closePopup6()">
+    </div>
+    <div class="popup7" id="popup7">
+        <h1>ARBETSLIVSERFARANHETER</h1>
+        <h3>2023 - 2023</h3>
+        <h3>NetOps - Spotify</h3>
+        <p>Under mitt tredje år på gymnasiet fick jag en praktikplats på Spotify.
+            Jag fick fick hjälpa till med nätverket och göra olika skripter,
+            skriptet var menad att överföra alla enheter som var kopplade till
+            Librenms till en sida som heter Netbox. Jag fick en API och använde mig av
+            Python för att göra olika skripter som kunde få över varje enhet.
+            Inom nätverk fick jag gå runt mäta singnal styrka och göra ett litet spegel
+            av Spotifys nätverk. Praktiken varade i tio veckor.
+        </p>
+        <br>
+        <h3>2022 - 2023</h3>
+        <h3>Spelvärd – Gröna Lund</h3>
+        <p>Under sommaren 2022 säsongsjobbade jag som spelvärd på
+            Gröna Lund. Mina arbetsuppgifter bestod av att sköta de olika spel
+            som finns på Gröna Lund. Som spelvärd hade jag ansvar över att
+            se till att gästerna har kul och vill spela.
+        </p>
+        <br>
+        <h3>2021 - 2021</h3>
+        <h3>IT-tekniker – MHZ data</h3>
+        <p>Under mitt andra år på gymnasiet fick jag en praktikplats hos MHZ
+            data (IT butik på Södermalm). Jag fick hjälpa till med att reparera
+            datorer och servrar, byta ut delar samt uppdatera MHZ datas
+            hemsida. Mitt ansvar var att utföra kundens önskemål samt
+            uppdatera hemsidan med rätt varor och information.
+        </p>
+        <br>
+        <h3>2020 - 2020</h3>
+        <h3>Fritidsledare – Fittja ungdomsgård – Verdandi</h3>
+        <p>Under sommaren 2020 jobbade jag som fritidsledare för barn
+            mellan 8 och 13 år. Mitt jobb vara att planera och sköta aktiviteter.
+            Jag fick planera utflykter och se till att alla barn var glada.
+        </p>
+        <br>
+        <h3>2019 - 2019</h3>
+        <h3>Köksbiträde – Förskola</h3>
+        <p>Under min praktik i årskurs 8 fick jag en praktikplats på en förskola
+            i Vårberg. Jag fick hjälpa till i köket som köksbiträde. Mitt ansvar
+            var att förbereda frukost, lunch och mellanmålen. Jag fick lägga
+            upp, servera och städa.
+        </p>
+        <br>
+        <button onclick="closePopup7()" class="close">
+            x
+        </button>
+    </div>
+    <div class="popup8" id="popup8">
+        <h1>UTBILDNING</h1>
+        <h3>2021 - 2023</h3>
+        <p>NTI Gymnasiet i Södertörn, Stockholm<br>
+            El- och Energiprogrammet med inriktning dator- och kommunikationsteknik</p>
+        <br>
+        <h3>2011 - 2020</h3>
+        <p>Söderholmskolan i Vårberg, Stockholm<br>
+            Grundskoleutbildning årskurs 1–9 </p>
+        <button class="close" onclick="closePopup8()">
+            x
+        </button>
+    </div>
+    <div class="popup9" id="popup9">
+        <h1>IT KUNSKAPER</h1>
+        <p>Nätverk – Grundläggande</p>
+        <p>HTML – Grundläggande</p>
+        <p>CSS – Grundläggande</p>
+        <p>Programmering (Python & Swift) – Grundläggande</p>
+        <p>Datorreperation – Mycket god</p>
+        <p>Microsoft Word – Mycket god</p>
+        <p>Microsoft PowerPoint – Mycket god</p>
+        <p>Microsoft Excel – God</p>
+        <p>Windows OS – Mycket god</p>
+        <p>Linux OS – Grundläggande</p>
+        <p>Bildredigering – God</p>
+        <p>Videoredigering - God</p>
+        <button class="close" onclick="closePopup9()">
+            x
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
